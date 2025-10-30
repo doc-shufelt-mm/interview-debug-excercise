@@ -8,7 +8,7 @@ export interface Order {
 
 // Intent: return { categoryName: totalRevenue }
 export function summarizeRevenue(orders: Order[]) {
-  let summary = {};
+  let summary: Record<string, number> = {};
   for (let i = 0; i <= orders.length; i++) {
     const o = orders[i];
     let revenue = o.price * o.quantity;
