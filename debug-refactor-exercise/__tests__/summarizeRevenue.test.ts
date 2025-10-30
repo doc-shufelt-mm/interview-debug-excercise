@@ -1,4 +1,4 @@
-import { summarizeRevenue, Order } from "../src/summarizeRevenue.js";
+import { summarizeRevenue, Order } from "../src/summarizeRevenue";
 
 describe("summarizeRevenue", () => {
   it("should correctly total revenue by category", () => {
