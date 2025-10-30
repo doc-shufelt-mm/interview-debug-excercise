@@ -1,0 +1,17 @@
+{
+  "name": "debug-refactor-exercise",
+  "version": "1.0.0",
+  "description": "Mini exercise for debugging and refactoring logic in TypeScript",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.6.3"
+  }
+}
